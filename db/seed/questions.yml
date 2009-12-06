@@ -1,0 +1,108 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 1
+  text: 'Age'
+  question_order: 1
+  
+two:
+  id: 2
+  text: 'Location'
+  question_order: 2
+  
+three:
+  id: 3
+  text: 'What music websites do you currently use?'
+  question_order: 3
+  multiple_choice: true
+  allow_new: true
+
+four:
+  id: 4
+  text: 'Do you subscribe to any websites/on-line communities? If so what ones?'
+  question_order: 4
+  multiple_choice: true
+  allow_new: true
+  
+five:
+  id: 5
+  text: 'How much would you pay for an on-line music subscription per month?'
+  question_order: 5
+  
+six:
+  id: 6
+  text: 'What social networking tools do you use regularly?'
+  question_order: 6
+  multiple_choice: true
+  allow_new: true
+  
+seven:
+  id: 7
+  text: 'Where do you hear about new music?'
+  question_order: 7
+  multiple_choice: true
+  allow_new: true
+  
+eight:
+  id: 8
+  text: 'How often do you rate content on websites?'
+  question_order: 8
+
+nine:
+  id: 9
+  text: 'How often do you attend gigs in your local area?'
+  question_order: 9
+  
+ten:
+  id: 10
+  text: 'How much would you pay to see a couple local bands play at a good local venue?'
+  question_order: 10
+  multiple_choice: true
+  
+eleven:
+  id: 11
+  text: 'How likely are you to act on a recommendation you find on a music website, for a new artist or new music?'
+  question_order: 11
+  
+twelve:
+  id: 12
+  text: 'What payment options are available to you that you would consider 
+  using on-line?'
+  question_order: 12
+  multiple_choice: true
+  allow_new: true
+  
+thirteen:
+  id: 13
+  text: 'How likely is it that you would tell your friends about a positive 
+  on-line experience you had signed-up to?'
+  question_order: 13
+  
+fourteen:
+  id: 14
+  text: 'How much music that you listen to is sourced or based in your local area?'
+  question_order: 14
+  
+fifteen:
+  id: 15
+  text: 'Which of the following methods of listening to music do you regularly use?'
+  question_order: 15
+  multiple_choice: true
+  allow_new: true
+  
+sixteen:
+  id: 16
+  text: 'How much would you pay to hear and download a DRM-free copy of an album?'
+  question_order: 16
+  
+seventeen:
+  id: 17
+  text: 'What lengths do you normally go to support a band that you believe in'
+  question_order: 17
+  multiple_choice: true
+  allow_new: true
+  
+eighteen:
+  id: 18
+  text: 'How satisfied are you with the variety of music discovery tools currently available on-line?'
+  question_order: 4

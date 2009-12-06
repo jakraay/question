@@ -1,0 +1,338 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+
+napster:
+  question_id: 3
+  text: 'Napster'
+  
+spotify:
+  question_id: 3
+  text: 'Pandora'
+  
+lastfm:
+  question_id: 3
+  text: 'last.fm'
+
+slacker:
+  question_id: 3
+  text: 'Slacker Radio'
+  
+myspace:
+  question_id: 3
+  text: 'MySpace'
+  
+youtube:
+  question_id: 3
+  text: 'Youtube'
+  
+xbox:
+  question_id: 4
+  text: 'Xbox Live'
+  
+playstation:
+  question_id: 4
+  text: 'Playstation Network'
+  
+emusic:
+  question_id: 4
+  text: 'E-Music'
+  
+wow:
+  question_id: 4
+  text: 'World of Warcraft'
+  
+sl:
+  question_id: 4
+  text: 'Second Life'
+  
+spotify:
+  question_id: 4
+  text: 'Spotify'
+  
+wouldntpay:
+  question_id: 5
+  text: 'I would not pay'
+  choice_index: 1
+
+onedollar:
+  question_id: 5
+  text: '$1'
+  choice_index: 2
+
+twodollarfifty:
+  question_id: 5
+  text: '$2.50'
+  choice_index: 3
+  
+fivedollar:
+  question_id: 5
+  text: '$5'
+  choice_index: 4
+  
+tendollar:
+  question_id: 5
+  text: '$10'
+  choice_index: 5
+  
+fifteendollar:
+  question_id: 5
+  text: '$15'
+  choice_index: 6
+  
+twitter:
+  question_id: 6
+  text: 'Twitter'
+  
+facebook:
+  question_id: 6
+  text: 'Facebook'
+
+flickr:
+  question_id: 6
+  text: 'Flickr'
+  
+myspace:
+  question_id: 6
+  text: 'MySpace'
+  
+online:
+  question_id: 7
+  text: 'On-line'
+
+wordofmouth:
+  question_id: 7
+  text: 'Word Of Mouth'
+
+magazines:
+  question_id: 7
+  text: 'Magazines'
+
+gigs:
+  question_id: 7
+  text: 'Gigs'
+
+radio:
+  question_id: 7
+  text: 'Radio'
+
+tv:
+  question_id: 7
+  text: 'TV'
+
+never:
+  question_id: 8
+  text: 'Never'
+  choice_index: 1
+  
+sometimes:
+  question_id: 8
+  text: 'Sometimes'
+  choice_index: 2
+  
+often:
+  question_id: 8
+  text: 'Often'
+  choice_index: 3
+  
+always:
+  question_id: 8
+  text: 'Always'
+  choice_index: 4
+  
+mtoaw:
+  question_id: 9
+  text: 'More than once a week'
+  choice_index: 5
+  
+oaw:
+  question_id: 9
+  text: 'Once a week'
+  choice_index: 6
+  
+oaf:
+  question_id: 9
+  text: 'Once every couple of weeks'
+  choice_index: 7
+  
+oam:
+  question_id: 9
+  text: 'Once a month'
+  choice_index: 8
+  
+seldom:
+  question_id: 9
+  text: 'Seldom'
+  choice_index: 9
+  
+nothing:
+  question_id: 10
+  text: 'Nothing'
+  choice_index: 1
+  
+oneortwo:
+  question_id: 10
+  text: '$1-$4'
+  choice_index: 2
+  
+threeorfour:
+  question_id: 10
+  text: '$5-$10'
+  choice_index: 3
+  
+fiveorsix:
+  question_id: 10
+  text: '$10-$15'
+  choice_index: 4
+  
+more:
+  question_id: 10
+  text: 'More than $15'
+  choice_index: 5
+  
+lots:
+  question_id: 11
+  text: 'Definitely'
+  choice_index: 1
+  
+somewhat:
+  question_id: 11
+  text: 'Probably'
+  choice_index: 2
+  
+notmuch:
+  question_id: 11
+  text: 'Probably not'
+  choice_index: 3
+  
+noneatall:
+  question_id: 11
+  text: 'Definitely not'
+  choice_index: 4
+  
+creditcards:
+  question_id: 12
+  text: 'Credit Cards'
+  
+debitcards:
+  question_id: 12
+  text: 'Debit Cards'
+  
+paypal:
+  question_id: 12
+  text: 'PayPal'
+  
+certain:
+  question_id: 13
+  text: 'Certain'
+  choice_index: 1
+  
+likely:
+  question_id: 13
+  text: 'Likely'
+  choice_index: 2
+  
+notlikely:
+  question_id: 13
+  text: 'Not likely'
+  choice_index: 3
+  
+nochance:
+  question_id: 13
+  text: 'No chance'
+  choice_index: 4
+  
+nearlyall:
+  question_id: 14
+  text: 'Nearly all'
+  choice_index: 1
+  
+quitealot:
+  question_id: 14
+  text: 'Quite a lot'
+  choice_index: 2
+  
+some:
+  question_id: 14
+  text: 'Some'
+  choice_index: 3
+  
+none:
+  question_id: 14
+  text: 'None'
+  choice_index: 4
+  
+embedded:
+  question_id: 15
+  text: 'Embedded players in a webpage'
+  
+podcast:
+  question_id: 15
+  text: 'Podcasts / iTunes'
+  
+steam:
+  question_id: 15
+  text: 'Audio stream in a stand-alone player, e.g. Real player, Amarok, Rhythmbox, Winamp'
+
+nothing_tip:
+  question_id: 16
+  text: 'Nothing'
+  choice_index: 1
+  
+lessdollar:
+  question_id: 16
+  text: 'Less than $1'
+  choice_index: 2
+  
+lesstwodollar:
+  question_id: 16
+  text: 'Less than $2'
+  choice_index: 3
+  
+moretwodollar:
+  question_id: 16
+  text: 'More than $2'
+  choice_index: 4
+  
+attendgigs:
+  question_id: 17
+  text: 'Attend gigs'
+  
+buymerch:
+  question_id: 17
+  text: 'Buy merchandise'
+  
+promote:
+  question_id: 17
+  text: 'Promote / tell friends'
+  
+mailinglist:
+  question_id: 17
+  text: 'Sign-up to mailing lists'
+  
+follow:
+  question_id: 17
+  text: 'Follow on social websites'
+  
+buymusic:
+  question_id: 17
+  text: 'Buy music'
+  
+vsatisfied:
+  question_id: 18
+  text: 'Very Satisfied'
+  choice_index: 1
+  
+ssatisfied:
+  question_id: 18
+  text: 'Somewhat Satisfied'
+  choice_index: 2
+  
+sdsatisfied:
+  question_id: 18
+  text: 'Somewhat Disatisfied'
+  choice_index: 3
+  
+vdsatisfied:
+  question_id: 18
+  text: 'Very Disatisfied'
+  choice_index: 4

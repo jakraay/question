@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 1
+  text: 'What music websites do you currently use?'
+  question_order: 2
+
+two:
+  id: 2
+  text: 'Do you subscribe to any websites/on-line communities?'
+  question_order: 1

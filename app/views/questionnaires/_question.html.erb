@@ -1,0 +1,53 @@
+<% question_name = 'responses[]' + q.id.to_s + '[]'
+   responses = nil
+   prevvalue = nil
+   if params[:responses]
+     responses = params[:responses].first
+     prevvalue = responses[q.id.to_s]
+   end 
+%>
+<div id="q<%=q.id.to_s%>">
+<li class="question" >
+
+    <% if q.choices.empty? %>
+      <%=label_tag 'text' + q.id.to_s, q.text%> 
+      <%=text_field_tag question_name, prevvalue, {:id=> 'text' + q.id.to_s} %>
+    <% else %>
+      <p><%=q.text%></p>
+      <% q.choices.each do |c| %>      
+      <div class="choice">
+        <%=label_tag 'choice' + c.id.to_s, c.text%>
+	<% if q.multiple_choice
+	   checked = false
+	   if responses and !prevvalue.nil?
+	     checked = prevvalue.include?(c.id.to_s) or c.text == params[:newchoice]
+	   end %>
+	  <%=check_box_tag question_name, c.id, checked, :id=> 'choice' + c.id.to_s%>
+	<% else %>
+	  <%=radio_button_tag question_name, c.id, checked, :id=> 'choice' + c.id.to_s%>
+	<% end %>
+      </div>
+      <% end %>
+      
+      <% if q.allow_new %>
+      <div class="choice">
+        <label>Other (please specify)</label>
+	<div id="new<%=q.id%>">
+
+	<div>
+	  <%=text_field_tag 'newchoice', nil, {:id => 'newchoice' + q.id.to_s} %>
+	  <%=hidden_field_tag 'question_id', q.id, {:id => 'question_id' + q.id.to_s} %>
+	  <%=submit_to_remote 'add_btn', 'Add', :update => ('q' + q.id.to_s), 
+	  :url => '/addchoice', :submit => 'q' + q.id.to_s%>
+   
+	</div>
+
+	</div>
+	
+      </div>
+      <% end %>
+    <% end %>
+    
+</li>
+</div>
+

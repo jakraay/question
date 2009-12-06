@@ -1,0 +1,16 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+emusic:
+  id: 1
+  question_id: 1
+  text: 'emusic'
+
+napster:
+  id: 2
+  question_id: 1
+  text: 'spotify'
+  
+lastfm:
+  id: 3
+  question_id: 1
+  text: 'last.fm'

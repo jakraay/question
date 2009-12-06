@@ -1,0 +1,27 @@
+<% if @errors %>
+<h3>Error - please make sure you fill in your age and location and submit the form</h3>
+<% end %>
+
+<h1>Questionnaire</h1>
+
+<p>Thank you for taking the time to take this short survey. Please fill-in your
+age and your location, and answer any questions that you have an opinion on. 
+Where appropirate, use the 'add' button to add more choices to the list.</p>
+<p class="small">* Required</p>
+
+<% form_tag '/respond' do -%>
+
+<ol>
+  <% @questions.each do |q| %>
+
+  <%=render :partial => 'questionnaires/question', :locals => { :q => q } %>
+  
+  <% end %>
+</ol>
+
+<div id="submit">
+ <p>That's all for now! Press this button to complete the survey.</p>
+ <%=submit_tag 'Submit Questionnaire'%>
+</div>
+<% end -%>
+
