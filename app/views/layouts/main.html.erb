@@ -1,14 +1,26 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <title>Resistance to Josh is Futile :)</title>
-    <%=stylesheet_link_tag 'main' %>
-    <%=javascript_include_tag :defaults %>
+    <title>Online Musical Habits</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="http://oscar.cmsc.dordt.edu/images/styles.css" rel="stylesheet" type="text/css" />
   </head>
   
   <body>
-    <div id="content">
+    <div id="HEADER">
+	<h1>Online Music Habits</h1>
+	<div class="Visual"> </div>
+    </div>
+
+    <div id="CONTENT">
       <%=yield%>
     </div>
+
+    <div id="FOOTER">
+      <p><a href="http://courses.dordt.edu/mod/oublog/allposts.php">Blogs</a>
+      &bull; <a href="http://oscar.cmsc.dordt.edu/aboutus.html">About Us</a></p>
+      <p>Josh Kraayenbrink &copy; 2009 </p>
+    </div>
+
   </body>
 </html>
