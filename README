@@ -1,1 +1,13 @@
-temporary
+=Welcome to Josh' Kraayenbrink's Ruby on Rails Questionaire
+
+This is just a simple questionaire implemented in Ruby on rails.
+
+Download
+run "rake db:migrate"
+run "rake db:seed"
+run "script/server"
+goto localhost:3000 in your browser
+
+ENJOY! You are riding the rails of ruby!
+
+Originally based on a project by dmgarland, modified heavily.
